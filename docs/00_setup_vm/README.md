@@ -1,6 +1,6 @@
 # 00 - Setup Baseline VMs
 
-1. Installed Windows Server 2022 as a virtual machine in VMware Workstation:
+1. Installed Windows Server 2022 as a virtual machine in VMware Workstation:  
     - Download Windows Server 2022 iso
     - Create new Virtual macine (Typical)
     - Select "I will install the operating system later"
@@ -15,7 +15,7 @@
     - Install VMWare tools
     - Take snapshot of the fresh install
 
-2. Installed Windows 11 as a virtual machine in VMware Workstation
+2. Installed Windows 11 as a virtual machine in VMware Workstation  
     - Download Windows 11 iso
     - Create new Virtual macine (Typical)
     - Select "I will install the operating system later"
@@ -31,7 +31,7 @@
     - Take snapshot of the fresh install
 
 3. Cloning base machines
-Now that the baselines are set up we need to make 3 clones to start setting up our enviornment.
-    - Make a clone of the Baseline Windows server for the domanin controller (DC1)
-    - Make a clone of the Baseline Windows 11 machine for a management client (MGMT01)
-    - Make a clone of the baseline Windows 11 machine for a workstation (WS01)
+Now that the baselines are set up we need to make 3 clones to start setting up our enviornment.  
+    - Make a clone of the Baseline Windows server for the domanin controller (DC1)  
+    - Make a clone of the Baseline Windows 11 machine for a management client (MGMT01) 
+    - Make a clone of the baseline Windows 11 machine for a workstation (WS01)  
