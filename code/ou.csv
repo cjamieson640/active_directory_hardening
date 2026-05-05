@@ -1,0 +1,4 @@
+Name,Path
+Corp,"DC=jamieson,DC=local"
+IT,"OU=Corp,DC=jamieson,DC=local"
+Users,"OU=IT,OU=Corp,DC=jamieson,DC=local"
