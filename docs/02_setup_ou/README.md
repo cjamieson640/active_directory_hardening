@@ -23,3 +23,39 @@ Import-Csv "ou.csv" | ForEach-Object {
     Write-Host "Created OU: $($_.Name) under $($_.Path)"
 }
 ```
+
+After understanding how to use powershell to upload my OUs I made a more deatailed version of my ou.csv. This version included the corporation, departments, sales, IT, HR, finanace, and computers and users for each department.
+```csv
+Name,Path
+Corp,"DC=jamieson,DC=local"  
+Departments,"OU=Corp,DC=jamieson,DC=local"  
+Sales,"OU=Departments,OU=Corp,DC=jamieson,DC=local" 
+HR,"OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+IT,"OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Finance,"OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Users,"OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local"   
+Computers,"OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Users,"OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Computers,"OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Users,"OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Computers,"OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+Users,"OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local" 
+Computers,"OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local"  
+```
+
+This is the updated powershell script used to run the more detailed OU  
+```powershell
+Import-Csv "ou.csv" | Sort-Object { ($_.Path -split ',').Count } | ForEach-Object {
+    $dn = "OU=$($_.Name),$($_.Path)"
+    if (Get-ADOrganizationalUnit -Filter "DistinguishedName -eq '$dn'" -ErrorAction SilentlyContinue) {
+        Write-Host "Skipped (exists): $dn" -ForegroundColor Yellow
+    } else {
+        try {
+            New-ADOrganizationalUnit -Name $_.Name -Path $_.Path -ErrorAction Stop
+            Write-Host "Created: $dn" -ForegroundColor Green
+        } catch {
+            Write-Host "Failed: $dn - $($_.Exception.Message)" -ForegroundColor Red
+        }
+    }
+}
+```
