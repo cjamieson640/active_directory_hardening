@@ -1,0 +1,46 @@
+GivenName,Surname,Name,SamAccountName,UserPrincipalName,Department,Title,OU,Password,Groups
+Marcus,Chen,Marcus Chen,mchen,mchen@jamieson.local,IT,IT Manager,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;IT-Admins;Domain Admins
+Priya,Patel,Priya Patel,ppatel,ppatel@jamieson.local,IT,Systems Administrator,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;IT-Admins
+Jordan,Reeves,Jordan Reeves,jreeves,jreeves@jamieson.local,IT,Help Desk Technician,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;HelpDesk
+Aisha,Okonkwo,Aisha Okonkwo,aokonkwo,aokonkwo@jamieson.local,IT,Help Desk Technician,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;HelpDesk
+Diane,Mercer,Diane Mercer,dmercer,dmercer@jamieson.local,HR,HR Director,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users;HR-Managers
+Nathan,Brooks,Nathan Brooks,nbrooks,nbrooks@jamieson.local,HR,HR Business Partner,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users;HR-Managers
+Sofia,Alvarez,Sofia Alvarez,salvarez,salvarez@jamieson.local,HR,HR Generalist,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users
+Tyler,Bauman,Tyler Bauman,tbauman,tbauman@jamieson.local,HR,HR Generalist,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users
+Rachel,Kim,Rachel Kim,rkim,rkim@jamieson.local,HR,Recruiter,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users;HR-Recruiting
+Devon,Hayes,Devon Hayes,dhayes,dhayes@jamieson.local,HR,Recruiter,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users;HR-Recruiting
+Linda,Whitfield,Linda Whitfield,lwhitfield,lwhitfield@jamieson.local,Finance,CFO,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users;Finance-Managers;Finance-Sensitive
+Henry,Watanabe,Henry Watanabe,hwatanabe,hwatanabe@jamieson.local,Finance,Controller,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users;Finance-Managers;Finance-Sensitive
+Olivia,Sandoval,Olivia Sandoval,osandoval,osandoval@jamieson.local,Finance,Senior Accountant,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users;Finance-Sensitive
+Brandon,Clarke,Brandon Clarke,bclarke,bclarke@jamieson.local,Finance,Senior Accountant,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users;Finance-Sensitive
+Mei,Liu,Mei Liu,mliu,mliu@jamieson.local,Finance,Staff Accountant,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
+Kevin,Donnelly,Kevin Donnelly,kdonnelly,kdonnelly@jamieson.local,Finance,Staff Accountant,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
+Jasmine,Foster,Jasmine Foster,jfoster,jfoster@jamieson.local,Finance,AP Specialist,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
+Ahmed,Karimi,Ahmed Karimi,akarimi,akarimi@jamieson.local,Finance,AR Specialist,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
+Gabriela,Reyes,Gabriela Reyes,greyes,greyes@jamieson.local,Finance,Payroll Analyst,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users;Finance-Sensitive
+Marcus,Webb,Marcus Webb,mwebb,mwebb@jamieson.local,Sales,VP of Sales,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-Managers
+Caroline,Beaumont,Caroline Beaumont,cbeaumont,cbeaumont@jamieson.local,Sales,Regional Sales Director,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-Managers
+Reginald,Powell,Reginald Powell,rpowell,rpowell@jamieson.local,Sales,Regional Sales Director,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-Managers
+Vanessa,Iverson,Vanessa Iverson,viverson,viverson@jamieson.local,Sales,Senior Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Trevor,Mackenzie,Trevor Mackenzie,tmackenzie,tmackenzie@jamieson.local,Sales,Senior Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Isabella,Russo,Isabella Russo,irusso,irusso@jamieson.local,Sales,Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Darnell,Jackson,Darnell Jackson,djackson,djackson@jamieson.local,Sales,Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Hannah,Lindgren,Hannah Lindgren,hlindgren,hlindgren@jamieson.local,Sales,Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Mateo,Esposito,Mateo Esposito,mesposito,mesposito@jamieson.local,Sales,Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Sienna,Holloway,Sienna Holloway,sholloway,sholloway@jamieson.local,Sales,Sales Development Rep,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-SDR
+Quincy,Park,Quincy Park,qpark,qpark@jamieson.local,Sales,Sales Development Rep,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-SDR
+Bria,Calloway,Bria Calloway,bcalloway,bcalloway@jamieson.local,Sales,Sales Development Rep,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-SDR
+Ezekiel,Aldridge,Ezekiel Aldridge,ealdridge,ealdridge@jamieson.local,Sales,Sales Development Rep,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-SDR
+Naomi,Schultz,Naomi Schultz,nschultz,nschultz@jamieson.local,Sales,Sales Operations Analyst,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-Ops
+Connor,Brennan,Connor Brennan,cbrennan,cbrennan@jamieson.local,Sales,Sales Operations Analyst,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-Ops
+Yuki,Tanaka,Yuki Tanaka,ytanaka,ytanaka@jamieson.local,IT,Network Administrator,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;IT-Admins
+Carlos,Mendoza,Carlos Mendoza,cmendoza,cmendoza@jamieson.local,IT,Help Desk Technician,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;HelpDesk
+Eleanor,Vance,Eleanor Vance,evance,evance@jamieson.local,HR,HR Generalist,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users
+Malik,Thornton,Malik Thornton,mthornton,mthornton@jamieson.local,HR,Benefits Administrator,"OU=Users,OU=HR,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,HR-Users
+Zoe,Fitzgerald,Zoe Fitzgerald,zfitzgerald,zfitzgerald@jamieson.local,Finance,Financial Analyst,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
+Russell,Kowalski,Russell Kowalski,rkowalski,rkowalski@jamieson.local,Finance,Financial Analyst,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
+Camille,Dubois,Camille Dubois,cdubois,cdubois@jamieson.local,Sales,Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Theo,Sullivan,Theo Sullivan,tsullivan,tsullivan@jamieson.local,Sales,Sales Development Rep,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-SDR
+Lena,Petrov,Lena Petrov,lpetrov,lpetrov@jamieson.local,Sales,Senior Account Executive,"OU=Users,OU=Sales,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Sales-Users;Sales-AE
+Ibrahim,Diallo,Ibrahim Diallo,idiallo,idiallo@jamieson.local,IT,Junior Systems Administrator,"OU=Users,OU=IT,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,IT-Users;IT-Admins
+Phoebe,Ashworth,Phoebe Ashworth,pashworth,pashworth@jamieson.local,Finance,Staff Accountant,"OU=Users,OU=Finance,OU=Departments,OU=Corp,DC=jamieson,DC=local",TempPass123!,Finance-Users
